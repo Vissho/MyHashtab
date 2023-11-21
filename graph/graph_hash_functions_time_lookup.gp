@@ -18,8 +18,8 @@ set style line 13 lt 13 lw 1 pt 3 ps 0.5
 set style line 14 lt 14 lw 1 pt 5 ps 0.5
 set style line 15 lt 15 lw 1 pt 7 ps 0.5
 set style line 16 lt 16 lw 1 pt 9 ps 0.5
-set xlabel "Количество элементов" font 'Calibri,16'
-set ylabel "Время, с" font 'Calibri,16'
+set xlabel "Number of elements" font 'Calibri,16'
+set ylabel "Time, sec" font 'Calibri,16'
 set xtics 200000
 
 plot 'Hash function KRHash.dat' using 2:4 title "KRHash" with linespoints ls 1,\
