@@ -10,8 +10,6 @@ struct listnode {
     struct listnode* next;
 };
 
-struct listnode* hashtab[HASH_SIZE];
-
 unsigned int hashtab_hash_KRHash(char* key);
 unsigned int hashtab_hash_ELFHash(char* key);
 unsigned int hashtab_hash_jen(char* key);

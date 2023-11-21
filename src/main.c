@@ -20,6 +20,8 @@ double wtime()
 
 int main()
 {
+    struct listnode* hashtab[HASH_SIZE];
+
     for (int i = 0; i < 25; i++) {
         mode = i / 5;
         int fn = i % 5 + 1;
